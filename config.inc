@@ -1,12 +1,12 @@
 <%
 ' todo file
-ToDoFile = "D:\Dropbox\todo\todo.txt"
+ToDoFile = "todo.txt"
 
 ' archive file
-ArchFile = "D:\Dropbox\todo\done.txt"
+ArchFile = "done.txt"
 
 ' Put categories here
-ArrCats=Array("Anywhere","Home","Navy","OCF","Pack","Town")
+ArrCats=Array("Anywhere","Home","Work","Shopping")
 
 ' ArrDueD is the list of dates you want to use for initial date.  The entries are in pairs.  First put the text of the selection, then the number of days until due.  Note:  "None" uses "None" for number of days until due so if you use "None," it should be followed by "None."
 ArrDueD=Array("None","None","Today",0,"Tomorrow",1,"One Week",7,"Two Weeks",14,"30 Days",30)
